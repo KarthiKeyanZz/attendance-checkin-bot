@@ -39,11 +39,10 @@ async function loadUser() {
 
         console.log("User data:", data);
 
-        // ✅ Update UI
+    
         document.getElementById("username").innerText =
             `Welcome, ${data.name} 👋`;
 
-        // ✅ Show action section
         document.getElementById("login-section").style.display = "none";
         document.getElementById("action-section").style.display = "block";
 
