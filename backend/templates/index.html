@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Bot</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 id="welcome">Welcome 👋</h1>
+
+    <!-- LOGIN SECTION -->
+    <div id="login-section">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- ACTION SECTION -->
+    <div id="action-section" class="hidden">
+        <h2 id="username"></h2>
+
+        <button onclick="checkIn()">Check In</button>
+        <button onclick="checkOut()">Check Out</button>
+    </div>
+
+    <p id="status"></p>
+
+</div>
+
+<script src="../static/script.js"></script>
+
+</body>
+</html>
