@@ -40,7 +40,7 @@ Create a `.env` file inside `backend/`:
 EMAIL=your_email_here
 PASSWORD=your_password_here
 NAME=your_name
-LOCATION=9.919,78.1195
+LOCATION=Latitude,Langutude
 ```
 
 ---
